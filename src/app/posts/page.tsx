@@ -8,12 +8,12 @@ const posts = [
 
 export default function PostsPage() {
   return (
-    <ul className="flex flex-col gap-2">
+    <ul className="flex w-full flex-col gap-3">
       {posts.map((post) => (
         <li key={post.id}>
           <Link
             href={`/posts/${post.id}`}
-            className="font-medium text-zinc-950 underline-offset-4 hover:underline dark:text-zinc-50"
+            className="block rounded-xl border border-black/[.08] p-4 text-lg font-medium tracking-tight text-zinc-950 transition-colors hover:bg-black/[.04] dark:border-white/[.145] dark:text-zinc-50 dark:hover:bg-white/[.04]"
           >
             {post.title}
           </Link>

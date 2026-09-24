@@ -13,11 +13,11 @@ export default async function PostPage({
   const post = posts.find((p) => p.id === id);
 
   return (
-    <article className="flex flex-col gap-2">
-      <h2 className="text-xl font-semibold tracking-tight text-black dark:text-zinc-50">
+    <article className="flex w-full flex-col gap-3">
+      <h2 className="text-2xl font-semibold leading-10 tracking-tight text-black dark:text-zinc-50">
         {post?.title ?? "Пост не найден"}
       </h2>
-      <p className="text-base leading-7 text-zinc-600 dark:text-zinc-400">
+      <p className="max-w-md text-lg leading-8 text-zinc-600 dark:text-zinc-400">
         {post?.body}
       </p>
     </article>
