@@ -226,6 +226,47 @@ export default function HomePage() {
           </div>
         </div>
       </section>
+
+      {/* Блок «Почему выбирают BOXPACK» */}
+      <section className="bg-[#1a2a52] py-16 sm:py-20 text-white">
+        <div className="mx-auto max-w-6xl px-4 sm:px-6">
+          <div className="text-center">
+            <h2 className="text-2xl font-bold sm:text-3xl">
+              Почему выбирают BOXPACK
+            </h2>
+          </div>
+
+          <div className="mt-10 grid grid-cols-1 gap-5 sm:grid-cols-2 lg:grid-cols-4">
+            <div className="rounded-xl bg-[#314064] p-6 text-left shadow-sm">
+              <h3 className="text-base font-bold">Скорость</h3>
+              <p className="mt-2 text-xs leading-relaxed text-zinc-300">
+                До 20 000 товаров за смену и отправка день в день.
+              </p>
+            </div>
+
+            <div className="rounded-xl bg-[#314064] p-6 text-left shadow-sm">
+              <h3 className="text-base font-bold">Точность</h3>
+              <p className="mt-2 text-xs leading-relaxed text-zinc-300">
+                99.8% точность сборки благодаря автоматизации.
+              </p>
+            </div>
+
+            <div className="rounded-xl bg-[#314064] p-6 text-left shadow-sm">
+              <h3 className="text-base font-bold">Надежность</h3>
+              <p className="mt-2 text-xs leading-relaxed text-zinc-300">
+                Страхование товара и круглосуточный контроль.
+              </p>
+            </div>
+
+            <div className="rounded-xl bg-[#314064] p-6 text-left shadow-sm">
+              <h3 className="text-base font-bold">Поддержка</h3>
+              <p className="mt-2 text-xs leading-relaxed text-zinc-300">
+                Персональный менеджер и оперативная помощь.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
     </div>
   );
 }
