@@ -161,6 +161,71 @@ export default function HomePage() {
           </div>
         </div>
       </section>
+
+      {/* Блок «Услуги фулфилмента» */}
+      <section id="services" className="py-16 sm:py-20 bg-zinc-50">
+        <div className="mx-auto max-w-6xl px-4 sm:px-6">
+          <div className="text-center">
+            <h2 className="text-2xl font-bold sm:text-3xl text-zinc-900">
+              Услуги фулфилмента
+            </h2>
+            <p className="mt-2 text-sm text-zinc-500">
+              Полный цикл обработки товара от приемки до доставки.
+            </p>
+          </div>
+
+          <div className="mt-10 grid grid-cols-1 gap-5 sm:grid-cols-2 lg:grid-cols-3">
+            <div className="overflow-hidden rounded-xl border-t-4 border-[#32b8c6] bg-white p-6 shadow-sm">
+              <h3 className="text-base font-bold text-zinc-900">Приемка и сортировка</h3>
+              <p className="mt-2 text-xs leading-relaxed text-zinc-500">
+                Принимаем поставки любого объема и размещаем товар на адресное хранение.
+              </p>
+            </div>
+
+            <div className="overflow-hidden rounded-xl border-t-4 border-[#32b8c6] bg-white p-6 shadow-sm">
+              <h3 className="text-base font-bold text-zinc-900">Проверка на брак</h3>
+              <p className="mt-2 text-xs leading-relaxed text-zinc-500">
+                Контроль качества перед отправкой покупателю.
+              </p>
+            </div>
+
+            <div className="overflow-hidden rounded-xl border-t-4 border-[#32b8c6] bg-white p-6 shadow-sm">
+              <h3 className="text-base font-bold text-zinc-900">Автоматизированная упаковка</h3>
+              <p className="mt-2 text-xs leading-relaxed text-zinc-500">
+                Автоматические линии и видеоконтроль каждого заказа.
+              </p>
+            </div>
+
+            <div className="overflow-hidden rounded-xl border-t-4 border-[#32b8c6] bg-white p-6 shadow-sm">
+              <h3 className="text-base font-bold text-zinc-900">Сборка заказов</h3>
+              <p className="mt-2 text-xs leading-relaxed text-zinc-500">
+                Быстрая комплектация заказов по данным маркетплейсов.
+              </p>
+            </div>
+
+            <div className="overflow-hidden rounded-xl border-t-4 border-[#32b8c6] bg-white p-6 shadow-sm">
+              <h3 className="text-base font-bold text-zinc-900">Отправка на маркетплейсы</h3>
+              <p className="mt-2 text-xs leading-relaxed text-zinc-500">
+                FBO и FBS для всех крупных площадок.
+              </p>
+            </div>
+
+            <div className="overflow-hidden rounded-xl border-t-4 border-[#32b8c6] bg-white p-6 shadow-sm">
+              <h3 className="text-base font-bold text-zinc-900">Хранение товаров</h3>
+              <p className="mt-2 text-xs leading-relaxed text-zinc-500">
+                Безопасное адресное хранение продукции.
+              </p>
+            </div>
+
+            <div className="overflow-hidden rounded-xl border-t-4 border-[#32b8c6] bg-white p-6 shadow-sm">
+              <h3 className="text-base font-bold text-zinc-900">Интеграции</h3>
+              <p className="mt-2 text-xs leading-relaxed text-zinc-500">
+                Синхронизация с маркетплейсами и CRM.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
     </div>
   );
 }
