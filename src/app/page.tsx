@@ -103,6 +103,64 @@ export default function HomePage() {
           </div>
         </div>
       </section>
+
+      {/* Блок «Как начать работать с нами» */}
+      <section id="how" className="py-16 sm:py-20 bg-white">
+        <div className="mx-auto max-w-6xl px-4 sm:px-6">
+          <div className="text-center">
+            <h2 className="text-2xl font-bold sm:text-3xl text-zinc-900">
+              Как начать работать с нами
+            </h2>
+            <p className="mt-2 text-sm text-zinc-500">
+              Подключение занимает всего несколько дней. Все процессы максимально автоматизированы.
+            </p>
+          </div>
+
+          <div className="mt-10 grid grid-cols-1 gap-4 sm:grid-cols-2 lg:grid-cols-4">
+            <div className="rounded-xl bg-[#f0f0f0] p-5 shadow-sm">
+              <p className="text-xs font-bold text-zinc-700">ШАГ 1</p>
+              <h3 className="mt-2 text-sm font-semibold text-zinc-900">Оставляете заявку</h3>
+              <p className="mt-1 text-xs text-zinc-500">Через сайт или Telegram</p>
+            </div>
+
+            <div className="rounded-xl bg-[#f0f0f0] p-5 shadow-sm">
+              <p className="text-xs font-bold text-zinc-700">ШАГ 2</p>
+              <h3 className="mt-2 text-sm font-semibold text-zinc-900">Получаете расчет</h3>
+              <p className="mt-1 text-xs text-zinc-500">Под ваш объем и формат работы</p>
+            </div>
+
+            <div className="rounded-xl bg-[#f0f0f0] p-5 shadow-sm">
+              <p className="text-xs font-bold text-zinc-700">ШАГ 3</p>
+              <h3 className="mt-2 text-sm font-semibold text-zinc-900">Подписываем договор</h3>
+              <p className="mt-1 text-xs text-zinc-500">Через ЭДО</p>
+            </div>
+
+            <div className="rounded-xl bg-[#f0f0f0] p-5 shadow-sm">
+              <p className="text-xs font-bold text-zinc-700">ШАГ 4</p>
+              <h3 className="mt-2 text-sm font-semibold text-zinc-900">Принимаем товар</h3>
+              <p className="mt-1 text-xs text-zinc-500">От поставщика или транспортной компании</p>
+            </div>
+
+            <div className="rounded-xl bg-[#f0f0f0] p-5 shadow-sm">
+              <p className="text-xs font-bold text-zinc-700">ШАГ 5</p>
+              <h3 className="mt-2 text-sm font-semibold text-zinc-900">Автоматизированная упаковка</h3>
+              <p className="mt-1 text-xs text-zinc-500">С видеоконтролем каждого этапа</p>
+            </div>
+
+            <div className="rounded-xl bg-[#f0f0f0] p-5 shadow-sm">
+              <p className="text-xs font-bold text-zinc-700">ШАГ 6</p>
+              <h3 className="mt-2 text-sm font-semibold text-zinc-900">Отправляем</h3>
+              <p className="mt-1 text-xs text-zinc-500">На маркетплейсы по всей России</p>
+            </div>
+
+            <div className="rounded-xl bg-[#f0f0f0] p-5 shadow-sm">
+              <p className="text-xs font-bold text-zinc-700">ШАГ 7</p>
+              <h3 className="mt-2 text-sm font-semibold text-zinc-900">Получаете результат</h3>
+              <p className="mt-1 text-xs text-zinc-500">Отчеты и прозрачную аналитику</p>
+            </div>
+          </div>
+        </div>
+      </section>
     </div>
   );
 }
